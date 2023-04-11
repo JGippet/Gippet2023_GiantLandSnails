@@ -2,12 +2,12 @@
 Supplementary data
 
 
-Dataset S1. List of articles reviewed for evaluating the number and identity of pathogens carried by the giant land snail *Lissachatina fulica*. 
+**Dataset S1.** List of articles reviewed for evaluating the number and identity of pathogens carried by the giant land snail *Lissachatina fulica*. 
 
-Dataset S2. List of pathogens carried by carried by the giant land snail *L. fulica*. 
+**Dataset S2.** List of pathogens carried by carried by the giant land snail *L. fulica*. 
 
-Dataset S3. Hosts-pathogens associations for the 25 pathogens of *L. fulica* identified at the species level. 
+**Dataset S3.** Hosts-pathogens associations for the 25 pathogens of *L. fulica* identified at the species level. 
 
-Dataset S4. R files allowing replication of the ensemble model performed to predict environmental suitability for *L. fulica*. This .Rdata object contains the cleaned and thinned GBIF occurrences for L. fulica presence and background (i.e., occurrences of Stylommatophora mollusks); the R script necessary to prepare data and run models; the R script necessary to prepare data and test differences in human density between L. fulica occurrences (native and invasive) and background occurrences.
+**Dataset S4.** R files allowing replication of the ensemble model performed to predict environmental suitability for *L. fulica*. This .Rdata object contains the cleaned and thinned GBIF occurrences for L. fulica presence and background (i.e., occurrences of Stylommatophora mollusks); the R script necessary to prepare data and run models; the R script necessary to prepare data and test differences in human density between L. fulica occurrences (native and invasive) and background occurrences.
 
-Dataset S5. Number of Instagram users referencing *L. fulica* as pets per country and total number of Instagram users per country (source: napoleoncat.com).
+**Dataset S5.** Number of Instagram users referencing *L. fulica* as pets per country and total number of Instagram users per country (source: napoleoncat.com).
