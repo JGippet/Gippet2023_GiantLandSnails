@@ -13,6 +13,7 @@
     "delimiter" : ";",
     "interactionTypeName": "parasiteOf",
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
+    "targetTaxonName": "Lissachatina fulica",
     "headerRowCount" : 1,
     "null" : [ "" ],
     "tableSchema" : {
