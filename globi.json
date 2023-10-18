@@ -1,0 +1,101 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "TableS2_Gippet2023_Lfulica_pathogensList.csv",
+    "dcterms:bibliographicCitation" : "Gippet, J.M.W., Bates, O.K., Moulin, J. et al. The global risk of infectious disease emergence from giant land snail invasion and pet trade. Parasites Vectors 16, 363 (2023). https://doi.org/10.1186/s13071-023-06000-y",
+    "delimiter" : ";",
+    "interactionTypeName": "parasiteOf",
+    "interactionTypeId", "http://purl.obolibrary.org/obo/RO_0002444",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "ParasiteSpecies",
+        "datatype" : "string"
+      }, {
+        "name" : "Nbstudies",
+        "titles" : "Nbstudies",
+        "datatype" : "string"
+      }, {
+        "name" : "Type",
+        "titles" : "Type",
+        "datatype" : "string"
+      }, {
+        "name" : "speciesLevel",
+        "titles" : "speciesLevel",
+        "datatype" : "string"
+      }, {
+        "name" : "pathogen",
+        "titles" : "pathogen",
+        "datatype" : "string"
+      } ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "TableS3_Gippet2023_Association_pathogens_hosts.csv",
+    "dcterms:bibliographicCitation" : "Gippet, J.M.W., Bates, O.K., Moulin, J. et al. The global risk of infectious disease emergence from giant land snail invasion and pet trade. Parasites Vectors 16, 363 (2023). https://doi.org/10.1186/s13071-023-06000-y",
+    "delimiter" : ",",
+    "interactionTypeName": "parasiteOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "parasite",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "host_harmonized",
+        "datatype" : "string"
+      }, {
+        "name" : "freq",
+        "titles" : "freq",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "host_phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "host_class",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "host_order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "host_family",
+        "datatype" : "string"
+      }, {
+        "name" : "parasite_type",
+        "titles" : "parasite_type",
+        "datatype" : "string"
+      }, {
+        "name" : "parasite_speciesLevel",
+        "titles" : "parasite_speciesLevel",
+        "datatype" : "string"
+      }, {
+        "name" : "parasite_IsZonotic",
+        "titles" : "parasite_IsZonotic",
+        "datatype" : "string"
+      }, {
+        "name" : "parasite_nbStudies",
+        "titles" : "parasite_nbStudies",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
