@@ -1,5 +1,6 @@
 # Gippet2023_GiantLandSnails
-Supplementary data
+Supplementary data associated with:
+Gippet, J.M.W., Bates, O.K., Moulin, J. et al. The global risk of infectious disease emergence from giant land snail invasion and pet trade. Parasites Vectors 16, 363 (2023). https://doi.org/10.1186/s13071-023-06000-y
 
 
 **Dataset S1.** List of articles reviewed for evaluating the number and identity of pathogens carried by the giant land snail *Lissachatina fulica*. 
