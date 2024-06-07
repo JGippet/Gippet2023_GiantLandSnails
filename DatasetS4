@@ -1,0 +1,3 @@
+R script and .RData R files allowing replication of the ensemble model performed to predict environmental suitability for L. fulica. 
+This .Rdata object contains the cleaned and thinned GBIF occurrences for L. fulica presence and background (i.e., occurrences of Stylommatophora mollusks); 
+R script necessary to prepare data and run models,  test differences in human density between L. fulica occurrences (native and invasive) and background occurrences.
